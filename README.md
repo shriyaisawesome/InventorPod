@@ -25,8 +25,9 @@
         It is xcode 10.2, and swift 5
 
 ### 7. How does the app look?
-    ![Your Invention](screenshot1.png)
 
-    ![Your Invention](screenshot2.png)
+![Your Invention](screenshot1.png)
+
+![Your Invention](screenshot2.png)
 
 
