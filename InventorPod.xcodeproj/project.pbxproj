@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3BBA30E2258FB1100573963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBA30D2258FB1100573963 /* AppDelegate.swift */; };
+		D3BBA3102258FB1100573963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBA30F2258FB1100573963 /* ViewController.swift */; };
+		D3BBA3132258FB1100573963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BBA3112258FB1100573963 /* Main.storyboard */; };
+		D3BBA3152258FB1400573963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BBA3142258FB1400573963 /* Assets.xcassets */; };
+		D3BBA3182258FB1400573963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BBA3162258FB1400573963 /* LaunchScreen.storyboard */; };
+		D3BBA3232258FB1400573963 /* InventorPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBA3222258FB1400573963 /* InventorPodTests.swift */; };
+		D3BBA32E2259095900573963 /* InventionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBA32D2259095900573963 /* InventionTableViewCell.swift */; };
+		D3BBA33022590E1400573963 /* InventionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBA32F22590E1400573963 /* InventionTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3BBA31F2258FB1400573963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BBA3022258FB1100573963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BBA3092258FB1100573963;
+			remoteInfo = InventorPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3BBA30A2258FB1100573963 /* InventorPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventorPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BBA30D2258FB1100573963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3BBA30F2258FB1100573963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3BBA3122258FB1100573963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3BBA3142258FB1400573963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3BBA3172258FB1400573963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3BBA3192258FB1400573963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3BBA31E2258FB1400573963 /* InventorPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventorPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BBA3222258FB1400573963 /* InventorPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventorPodTests.swift; sourceTree = "<group>"; };
+		D3BBA3242258FB1400573963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3BBA32D2259095900573963 /* InventionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventionTableViewCell.swift; sourceTree = "<group>"; };
+		D3BBA32F22590E1400573963 /* InventionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventionTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3BBA3072258FB1100573963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BBA31B2258FB1400573963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3BBA3012258FB1100573963 = {
+			isa = PBXGroup;
+			children = (
+				D3BBA30C2258FB1100573963 /* InventorPod */,
+				D3BBA3212258FB1400573963 /* InventorPodTests */,
+				D3BBA30B2258FB1100573963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3BBA30B2258FB1100573963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3BBA30A2258FB1100573963 /* InventorPod.app */,
+				D3BBA31E2258FB1400573963 /* InventorPodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3BBA30C2258FB1100573963 /* InventorPod */ = {
+			isa = PBXGroup;
+			children = (
+				D3BBA30D2258FB1100573963 /* AppDelegate.swift */,
+				D3BBA30F2258FB1100573963 /* ViewController.swift */,
+				D3BBA3112258FB1100573963 /* Main.storyboard */,
+				D3BBA32F22590E1400573963 /* InventionTableViewController.swift */,
+				D3BBA32D2259095900573963 /* InventionTableViewCell.swift */,
+				D3BBA3142258FB1400573963 /* Assets.xcassets */,
+				D3BBA3162258FB1400573963 /* LaunchScreen.storyboard */,
+				D3BBA3192258FB1400573963 /* Info.plist */,
+			);
+			path = InventorPod;
+			sourceTree = "<group>";
+		};
+		D3BBA3212258FB1400573963 /* InventorPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3BBA3222258FB1400573963 /* InventorPodTests.swift */,
+				D3BBA3242258FB1400573963 /* Info.plist */,
+			);
+			path = InventorPodTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3BBA3092258FB1100573963 /* InventorPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BBA3272258FB1400573963 /* Build configuration list for PBXNativeTarget "InventorPod" */;
+			buildPhases = (
+				D3BBA3062258FB1100573963 /* Sources */,
+				D3BBA3072258FB1100573963 /* Frameworks */,
+				D3BBA3082258FB1100573963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InventorPod;
+			productName = InventorPod;
+			productReference = D3BBA30A2258FB1100573963 /* InventorPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3BBA31D2258FB1400573963 /* InventorPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BBA32A2258FB1400573963 /* Build configuration list for PBXNativeTarget "InventorPodTests" */;
+			buildPhases = (
+				D3BBA31A2258FB1400573963 /* Sources */,
+				D3BBA31B2258FB1400573963 /* Frameworks */,
+				D3BBA31C2258FB1400573963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BBA3202258FB1400573963 /* PBXTargetDependency */,
+			);
+			name = InventorPodTests;
+			productName = InventorPodTests;
+			productReference = D3BBA31E2258FB1400573963 /* InventorPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3BBA3022258FB1100573963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Shriya Sudhakar";
+				TargetAttributes = {
+					D3BBA3092258FB1100573963 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					D3BBA31D2258FB1400573963 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = D3BBA3092258FB1100573963;
+					};
+				};
+			};
+			buildConfigurationList = D3BBA3052258FB1100573963 /* Build configuration list for PBXProject "InventorPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3BBA3012258FB1100573963;
+			productRefGroup = D3BBA30B2258FB1100573963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3BBA3092258FB1100573963 /* InventorPod */,
+				D3BBA31D2258FB1400573963 /* InventorPodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3BBA3082258FB1100573963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BBA3182258FB1400573963 /* LaunchScreen.storyboard in Resources */,
+				D3BBA3152258FB1400573963 /* Assets.xcassets in Resources */,
+				D3BBA3132258FB1100573963 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BBA31C2258FB1400573963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3BBA3062258FB1100573963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BBA3102258FB1100573963 /* ViewController.swift in Sources */,
+				D3BBA30E2258FB1100573963 /* AppDelegate.swift in Sources */,
+				D3BBA33022590E1400573963 /* InventionTableViewController.swift in Sources */,
+				D3BBA32E2259095900573963 /* InventionTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BBA31A2258FB1400573963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BBA3232258FB1400573963 /* InventorPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3BBA3202258FB1400573963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BBA3092258FB1100573963 /* InventorPod */;
+			targetProxy = D3BBA31F2258FB1400573963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3BBA3112258FB1100573963 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3BBA3122258FB1100573963 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3BBA3162258FB1400573963 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3BBA3172258FB1400573963 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3BBA3252258FB1400573963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3BBA3262258FB1400573963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3BBA3282258FB1400573963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HZ5X8HA8V;
+				INFOPLIST_FILE = InventorPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.shriya.InventorPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3BBA3292258FB1400573963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HZ5X8HA8V;
+				INFOPLIST_FILE = InventorPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.shriya.InventorPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3BBA32B2258FB1400573963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HZ5X8HA8V;
+				INFOPLIST_FILE = InventorPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.shriya.InventorPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InventorPod.app/InventorPod";
+			};
+			name = Debug;
+		};
+		D3BBA32C2258FB1400573963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HZ5X8HA8V;
+				INFOPLIST_FILE = InventorPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.shriya.InventorPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InventorPod.app/InventorPod";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3BBA3052258FB1100573963 /* Build configuration list for PBXProject "InventorPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BBA3252258FB1400573963 /* Debug */,
+				D3BBA3262258FB1400573963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BBA3272258FB1400573963 /* Build configuration list for PBXNativeTarget "InventorPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BBA3282258FB1400573963 /* Debug */,
+				D3BBA3292258FB1400573963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BBA32A2258FB1400573963 /* Build configuration list for PBXNativeTarget "InventorPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BBA32B2258FB1400573963 /* Debug */,
+				D3BBA32C2258FB1400573963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3BBA3022258FB1100573963 /* Project object */;
+}
